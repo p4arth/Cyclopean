@@ -1,0 +1,14 @@
+{
+  "name": "cyclopean-test",
+  "version": "1.0.0",
+  "description": "Cyclopean NPM module test files.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "Peter Swanton",
+  "license": "MIT",
+  "dependencies": {
+    "cyclopean": "file:.."
+  }
+}

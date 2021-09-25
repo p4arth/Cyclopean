@@ -10,12 +10,12 @@ var wordnet = new natural.WordNet();
 var sentencer = require('sentencer');
 var txtgen = require('txtgen');
 var writegood = require('write-good');
-var NlpManager = require('node-nlp');
+var { NlpManager } = require('node-nlp');
 var nlpManager = new NlpManager({ languages: ['en'], forceNER: true });
 var brain = require('brain.js');
 
 function wordFreq(string) {
-    var words = string.replace(/[.]/g, '').split(/\s/);
+    var words = string.toString().replace(/[.]/g, '').split(/\s/);
     var freqMap = {};
     words.forEach(function(w) {
         if (!freqMap[w]) {

@@ -1,0 +1,20 @@
+[
+  no: [ 31 ],       one: [ 31 ],      great: [ 22 ],   strange: [ 17 ],
+  found: [ 17 ],    stone: [ 15 ],    made: [ 14 ],    old: [ 14 ],
+  Old: [ 14 ],      even: [ 14 ],     young: [ 14 ],   known: [ 13 ],
+  down: [ 13 ],     dark: [ 12 ],     world: [ 11 ],   dead: [ 11 ],
+  first: [ 11 ],    black: [ 10 ],    far: [ 10 ],     terrible: [ 10 ],
+  ancient: [ 10 ],  New: [ 9 ],       hideous: [ 9 ],  two: [ 9 ],
+  unknown: [ 9 ],   Alert: [ 9 ],     heard: [ 8 ],    Cyclopean: [ 7 ],
+  formed: [ 7 ],    queer: [ 7 ],     Great: [ 7 ],    back: [ 7 ],
+  go: [ 6 ],        cosmic: [ 6 ],    certain: [ 6 ],  hidden: [ 6 ],
+  set: [ 6 ],       material: [ 6 ],  excited: [ 6 ],  every: [ 6 ],
+  monstrous: [ 6 ], whole: [ 6 ],     secret: [ 6 ],   long: [ 6 ],
+  enough: [ 6 ],    learned: [ 6 ],   full: [ 6 ],     right: [ 6 ],
+  lay: [ 6 ],       human: [ 5 ],     together: [ 5 ], mad: [ 5 ],
+  older: [ 5 ],     One: [ 5 ],       white: [ 5 ],    home: [ 5 ],
+  elder: [ 5 ],     carven: [ 5 ],    green: [ 5 ],    six: [ 5 ],
+  original: [ 5 ],  scattered: [ 5 ], second: [ 5 ],   nameless: [ 5 ],
+  small: [ 5 ],     several: [ 5 ],   ritual: [ 5 ],   left: [ 5 ],
+  away: [ 5 ]
+]

@@ -2,7 +2,7 @@
   "name": "cyclopean",
   "version": "1.0.0",
   "description": "This NPM module aids writers (or worldbuilders) in developing their story (or world) by giving useful parts of speech when prompted. For example, when prompted with \"Lovecraftian adjectives\", it would suggest \"Cyclopean\"! :-)",
-  "main": "test/main.js",
+  "main": "main.js",
   "directories": {
     "test": "test"
   },
@@ -52,6 +52,7 @@
   "homepage": "https://github.com/Wanton-Swanton/Cyclopean#readme",
   "dependencies": {
     "brain.js": "^2.0.0-beta.3",
+    "deepmerge": "^4.2.2",
     "natural": "^5.1.1",
     "node-nlp": "^4.22.1",
     "sentencer": "^0.2.1",
