@@ -1,0 +1,5 @@
+Hello! This is an NPM module project that aims to make the writing (or worldbuilding) process for writers (or worldbuilders) easier by allowing them to have a "conversation" with a machine learning A.I. in the hopes of being able to recall parts of speech (or combinations of parts of speech) when prompting the A.I. For example, let's say you're writing a dystopian fantasy novel, and you want some cosmic horror elements. You can input "The Call of Cthulhu" (by H.P. Lovecraft) and pass it as a string to the analyzer. It will then be able to tell you the most frequent adjectives, nouns, etc. Then, you can tell the machine learning A.I. about those words being "Lovecraftian". Last, you can ask the A.I. "give me a Lovecraftian adjective + noun combination", and it'll reply with, for example, "Cyclopean bas-relief"!
+
+This project is just being started. I have listed this project as being a part of Hacktoberfest. For anyone wishing to live chat, contact me on Discord. Here's a link to the project's Discord: https://discord.gg/9JbKrWGTHP. I am PSwan#2436.
+
+Thank you for your interest.
