@@ -10,7 +10,12 @@ var wordnet = new natural.WordNet();
 var sentencer = require('sentencer');
 var txtgen = require('txtgen');
 var writegood = require('write-good');
-var { NlpManager } = require('node-nlp');
+const winkNlp = require('wink-nlp');
+const its = require('wink-nlp/src/its.js');
+const as = require('wink-nlp/src/as.js');
+const model = require('wink-eng-lite-model');
+const nlp = winkNlp(model);
+var {NlpManager} = require('node-nlp');
 var nlpManager = new NlpManager({ languages: ['en'], forceNER: true });
 var brain = require('brain.js');
 
@@ -27,4 +32,4 @@ function wordFreq(string) {
     return freqMap;
 };
 
-module.exports = {util, fs, deepmerge, wordpos, natural, sentenceTokenizer, presentVerbInflector, wordnet, sentencer, txtgen, writegood, nlpManager, brain, wordFreq};
+module.exports = {util, fs, deepmerge, wordpos, natural, sentenceTokenizer, presentVerbInflector, wordnet, sentencer, txtgen, writegood, nlp, nlpManager, brain, wordFreq};
